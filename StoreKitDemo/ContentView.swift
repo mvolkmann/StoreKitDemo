@@ -1,6 +1,8 @@
 import StoreKit
 import SwiftUI
 
+// StoreKit still seems very difficult to use!
+
 private let colors: [String: Color] = [
     "p1": .black,
     "p2": .red,
@@ -44,7 +46,8 @@ struct ContentView: View {
                 // productIcon(id: product.id)
                 ProductView(id: product.id) {
                     productIcon(id: product.id)
-                } placeholderIcon: {
+                    // .productIconBorder() // not found
+                } placeholderIcon: { // seems to have no effect
                     Circle()
                 }
             }
