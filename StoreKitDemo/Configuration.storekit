@@ -1,0 +1,148 @@
+{
+  "identifier" : "3D33E0C9",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "29.99",
+      "familyShareable" : false,
+      "internalID" : "537218E5",
+      "localizations" : [
+        {
+          "description" : "This entitles you to lifetime app usage.",
+          "displayName" : "Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "p3",
+      "referenceName" : "Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "C82627A4",
+      "localizations" : [
+
+      ],
+      "name" : "Group1",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "89627B55",
+          "introductoryOffer" : {
+            "displayPrice" : "0.99",
+            "internalID" : "3A23FF03",
+            "paymentMode" : "payUpFront",
+            "subscriptionPeriod" : "P1M"
+          },
+          "localizations" : [
+            {
+              "description" : "This is a monthly subscription.",
+              "displayName" : "Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "p1",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly",
+          "subscriptionGroupID" : "C82627A4",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "9D1CB40F",
+          "introductoryOffer" : {
+            "displayPrice" : "0.99",
+            "internalID" : "D8D8D213",
+            "paymentMode" : "payUpFront",
+            "subscriptionPeriod" : "P1M"
+          },
+          "localizations" : [
+            {
+              "description" : "This is an annual subscription.",
+              "displayName" : "Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "p2",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Yearly",
+          "subscriptionGroupID" : "C82627A4",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
