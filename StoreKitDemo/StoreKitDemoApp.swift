@@ -1,14 +1,9 @@
-//
-//  StoreKitDemoApp.swift
-//  StoreKitDemo
-//
-//  Created by Mark Volkmann on 6/23/23.
-//
-
 import SwiftUI
 
 @main
 struct StoreKitDemoApp: App {
+    @StateObject private var store = StoreKitStore()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
